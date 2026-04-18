@@ -158,3 +158,56 @@ nav {
   font-size: 15px;
   line-height: 1.6;
 }
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0 14px;
+  }
+
+  .nav-nombre {
+    display: none;
+  }
+
+  .nav-apartados a {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .principal {
+    padding: 30px 24px;
+  }
+
+  .principal h1 {
+    font-size: 38px;
+  }
+
+  .principal p {
+    font-size: 16px;
+  }
+
+  .botones {
+    flex-direction: column;
+  }
+
+  .btnw, .btnc {
+    text-align: center;
+  }
+
+  .servicios {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 24px;
+    gap: 40px;
+  }
+
+  .bloque:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+
+  .bloque:not(:first-child) {
+    padding-left: 0;
+  }
+}
