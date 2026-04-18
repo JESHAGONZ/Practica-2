@@ -136,34 +136,24 @@ nav {
   line-height: 1.6;
 }
 
-/* TABLET */
 @media (max-width: 768px) {
-  .nav-nombre {
-    display: none;
-  }
-
   .nav-apartados a {
     font-size: 13px;
     padding: 6px 10px;
   }
-
   .principal {
     padding: 36px 36px;
   }
-
   .principal h1 {
     font-size: 48px;
   }
-
   .servicios {
     padding: 60px 40px;
     gap: 0;
   }
-
   .bloque:not(:last-child) {
     padding-right: 40px;
   }
-
   .bloque:not(:first-child) {
     padding-left: 40px;
   }
@@ -177,76 +167,62 @@ nav {
     padding: 8px 16px;
     gap: 6px;
   }
-
   .nav-marca {
     gap: 6px;
   }
-
   .nav-lia {
     font-size: 14px;
   }
-
   .nav-nombre {
     display: block;
     font-size: 11px;
   }
-
   .nav-apartados {
     display: flex;
     flex-wrap: wrap;
     gap: 2px;
     width: 100%;
   }
-
   .nav-apartados a {
     font-size: 12px;
     padding: 4px 8px;
   }
-
   .principal {
     min-height: 100vh;
     padding: 28px 20px;
     justify-content: center;
   }
-
   .principal h1 {
     font-size: 36px;
   }
-
   .principal p {
     font-size: 15px;
     margin-bottom: 24px;
   }
-
   .botones {
     flex-direction: column;
     gap: 12px;
   }
-
   .btnw, .btnc {
     text-align: center;
     padding: 12px 20px;
     font-size: 14px;
   }
-
   .servicios {
     flex-direction: column;
     align-items: center;
     padding: 48px 24px;
   }
-
   .bloque {
     max-width: 100%;
     width: 100%;
     padding: 32px 0;
   }
-
   .bloque:not(:last-child) {
     border-right: none;
     border-bottom: 1px solid #e0e0e0;
     padding-right: 0;
   }
-
   .bloque:not(:first-child) {
     padding-left: 0;
   }
